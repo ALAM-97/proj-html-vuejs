@@ -43,6 +43,7 @@ export default {
         align-items: center;
         padding: 1.25rem 4.375rem;
         width: 100%;
+        background-color: $white;
         nav {
             color: $darkBlue;
             display: flex;
