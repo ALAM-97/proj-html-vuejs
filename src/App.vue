@@ -3,7 +3,7 @@
     <Header/>
     <Hero/>
     <SectionOne/>
-    
+    <SectionTwo/>
     
   </div>
 </template>
@@ -12,13 +12,15 @@
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import SectionOne from './components/SectionOne.vue'
+import SectionTwo from './components/SectionTwo.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Hero,
-    SectionOne
+    SectionOne,
+    SectionTwo
   }
 }
 </script>

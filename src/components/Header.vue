@@ -41,28 +41,31 @@ export default {
     header {
         display: flex;
         align-items: center;
-        padding: 1.25rem 4.375rem;
+        justify-content: space-between;
+        padding: 1.25rem 50px;
         width: 100%;
         background-color: $white;
         nav {
+            align-items: left;
             color: $darkBlue;
             display: flex;
             ul {
                 display: flex;
                 li {
                     margin-right: 25px;
+                    font-size: .9rem;
                     .fa-angle-down {
-                        font-size: 11px;
+                        font-size: .6875rem;
                     }
                 }
             }
         }
         img {
-            text-align: center;
-            margin: auto;
+            width: 10%;
             width: 13%;
         }
         .shop-nav {
+            width: 45%;
             display: flex;
             justify-content: right;
             align-items: center;
