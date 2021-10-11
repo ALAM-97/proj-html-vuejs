@@ -81,7 +81,7 @@ export default {
                     height: .9375rem;
                     line-height: .9375rem;
                     text-align: center;
-                    background-color: $lightGreen;
+                    background-color: $detailsColor;
                     border-radius: 50%;
                     font-size: .625rem;
                     font-weight: 800;
@@ -105,7 +105,7 @@ export default {
                     right: .625rem;
                     top: 50%;
                     transform: translateY(-50%);
-                    color: $lightGreen;
+                    color: $detailsColor;
                 }
             }
         }

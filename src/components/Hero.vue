@@ -42,10 +42,10 @@ export default {
                 font-weight: 400;
             }
             button {
-                color: $lightGreen;
+                color: $detailsColor;
                 &:hover {
                     color: $white;
-                    background-color: $lightGreen;
+                    background-color: $detailsColor;
                 }
             }
         }

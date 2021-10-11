@@ -34,7 +34,7 @@ export default {
             display: flex;
             width: 70%;
             justify-content: space-around;
-            margin: 5.625rem auto;
+            margin: 6.25rem auto 12.5rem auto;
         }
         .info-one,
         .info-two,
@@ -44,7 +44,7 @@ export default {
             align-items: center;
             font-size: 2.5rem;
             font-weight: 700;
-            color: $lightGreen;
+            color: $detailsColor;
             span {
                 font-size: 1rem;
                 font-weight: 600;

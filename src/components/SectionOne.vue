@@ -39,32 +39,28 @@ export default {
 
     section {
         display: flex;
+        justify-content: space-between;
         margin-top: 200px;
         color: $darkGray;
         position: relative;
         .detail-one {
-                position: absolute;
-                width: 10%;
-                top: -17%;
-                right: 11%;
-                z-index: -1;
-            }
-            .detail-two {
-                position: absolute;
-                width: 10%;
-                bottom: -18%;
-                right: 11%;
-                z-index: 1;
-            }
-            .brown-circle {
-                position: absolute;
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                border: 6px solid $lightBrown;
-                left: 35%;
-                top: -7%;
-            }
+            position: absolute;
+            width: 10%;
+            top: -17%;
+            right: 11%;
+            z-index: -1;
+        }
+        .detail-two {
+            position: absolute;
+            width: 10%;
+            bottom: -18%;
+            right: 11%;
+            z-index: 1;
+        }
+        .brown-circle {
+            left: 40%;
+            top: -7%;
+        }
         .left-section {
             display: flex;
             flex-direction: column;
@@ -78,32 +74,31 @@ export default {
                 }
             }
             h4 {
-                font-size: 2.7rem;
+                font-size: 2.9rem;
                 margin: 1.25rem 0;
-                font-weight: 500;
+                font-weight: 600;
                 line-height: 3.2rem;
                 span {
-                    color: $lightGreen;
+                    color: $detailsColor;
                     font-weight: 300;
                 }
             }
             p {
-                font-size: 1rem;
+                font-size: .8rem;
                 margin-left: .3125rem;
                 margin-bottom: 1.25rem;
             }
             .link {
                 font-size: 1rem;
                 a {
-                    color: $lightGreen;
+                    color: $detailsColor;
                     font-weight: bold;
                 }
             }
         }
         .right-section {
-            margin-left: 70px;
             position: relative;
-            width: 60%;
+            width: 50%;
             img {
                 width: 90%;
                 height: 100%;
