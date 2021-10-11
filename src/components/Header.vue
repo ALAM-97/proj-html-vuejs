@@ -59,6 +59,7 @@ export default {
         img {
             text-align: center;
             margin: auto;
+            width: 13%;
         }
         .shop-nav {
             display: flex;
