@@ -70,6 +70,9 @@ export default {
             height: 25rem;
             border-radius: .3125rem;
             position: relative;
+            &:hover .course-title {
+                color: $detailsColor;
+            }
         }
         
         img {
