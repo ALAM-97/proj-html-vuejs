@@ -1,38 +1,43 @@
 <template>
-    <div class="gray-bg">
-        <div class="container">
-            <section>
-                <div class="section-title">
-                    <div>JOIN MAXCOACH AT BEST</div>
-                    <h4>Latest Online <span>Courses</span></h4>
-                </div>
-                <div class="services">
-                    <CourseCard/>
-                </div>
-                <div class="courses-nav">
-                    <i class="fas fa-circle active"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                </div>
-                <div class="courses-sub">
-                    Control your personal preference settings to get notified about <br> appropiate courses.
-                    <a href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-            </section>
+    <div class="divider">
+        <div class="gray-bg">
+            <div class="container">
+                <section>
+                    <div class="section-title">
+                        <div>JOIN MAXCOACH AT BEST</div>
+                        <h4>Latest Online <span>Courses</span></h4>
+                    </div>
+                    <div class="services">
+                        <CourseCard/>
+                    </div>
+                    <div class="courses-nav">
+                        <i class="fas fa-circle active"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="courses-sub">
+                        Control your personal preference settings to get notified about <br> appropiate courses.
+                        <a href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </section>
+            </div>
         </div>
+        <Divider class="abs"/>
     </div>
     
 </template>
 
 <script>
-import CourseCard from "./CourseCard.vue"
+import CourseCard from "./CourseCard.vue";
+import Divider from "./Divider.vue"
 
 export default {
     name: 'SectionFour',
     components: {
-        CourseCard
+        CourseCard,
+        Divider
     },
     
 }
@@ -41,6 +46,13 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/style/common.scss";
 
+    .divider {
+        position: relative;
+        .abs {
+            position: absolute;
+            bottom: -10px;
+        }
+    }
     .section-title {
         display: flex;
         flex-direction: column;
@@ -86,6 +98,7 @@ export default {
         width: 100%;
         text-align: center;
         line-height: 2.1875rem;
+        padding-bottom: 5rem;
         a {
             color: $darkGray;
             font-weight: bold;

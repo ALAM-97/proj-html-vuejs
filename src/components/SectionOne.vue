@@ -43,25 +43,24 @@ export default {
         display: flex;
         justify-content: space-between;
         padding-top: 200px;
-        color: $darkGray;
         position: relative;
         .detail-one {
             position: absolute;
             width: 10%;
-            top: -17%;
-            right: 11%;
-            z-index: -1;
+            top: 27%;
+            right: 9%;
+            z-index: 0;
         }
         .detail-two {
             position: absolute;
             width: 10%;
-            bottom: -18%;
-            right: 11%;
-            z-index: 1;
+            bottom: -14%;
+            right: 9%;
+            z-index: 2;
         }
         .brown-circle {
             left: 40%;
-            top: -7%;
+            top: 32%;
         }
         .left-section {
             display: flex;
