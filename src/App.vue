@@ -6,7 +6,7 @@
     <SectionTwo/>
     <SectionThree/>
     <SectionFour/>
-    <Divider/>
+    <SectionFive/>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import SectionOne from './components/SectionOne.vue';
 import SectionTwo from './components/SectionTwo.vue';
 import SectionThree from './components/SectionThree.vue';
 import SectionFour from './components/SectionFour.vue';
-import Divider from './components/Divider.vue';
+import SectionFive from './components/SectionFive.vue';
 
 export default {
   name: 'App',
@@ -28,7 +28,7 @@ export default {
     SectionTwo,
     SectionThree,
     SectionFour,
-    Divider
+    SectionFive
   }
 }
 </script>
