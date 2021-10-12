@@ -1,7 +1,10 @@
 <template>
-    <div class="full-screen">
-        <img src="../assets/svg/svg-1.svg" alt="">
+    <div class="gray-bg">
+        <div class="full-screen">
+            <img src="../assets/svg/svg-1.svg" alt="">
+        </div>
     </div>
+    
 </template>
 
 <script>

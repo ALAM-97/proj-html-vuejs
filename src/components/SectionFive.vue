@@ -1,38 +1,10 @@
 <template>
-    <div class="gray-bg">
-        <div class="container">
-            <section>
-                <!-- details image -->
-                <img class="detail-one" src="../assets/images/maxcoach-shape-07.png" alt="">
-                <img class="detail-two" src="../assets/images/maxcoach-shape-02.png" alt="">
-                <div class="brown-circle"></div>
-                <div class="left-section">
-                    <div>EVERYTHING IN <span>MAXCOACH</span></div>
-                    <h4>
-                        Learn about our <span>Work Culture</span> at MaxCoach
-                    </h4>
-                    <p>
-                        Spend some time to visit our website or head office and discover our current courses, enrollment procedure, and registration deadline. We're opening new classe every beginning of each month.
-                    </p>
-                    <div class="link">
-                        Have questions? 
-                        <a href="#">Get Free Guide 
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="right-section">
-                    <img src="../assets/images/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
-                    <img class="absolute-img" src="../assets/images/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="">
-                </div>
-            </section>
-        </div>
-    </div>
+    <div></div>
 </template>
 
 <script>
 export default {
-    name: 'SectionOne'
+name: 'SectionFive'
 }
 </script>
 
@@ -40,9 +12,9 @@ export default {
 @import '../assets/style/variables.scss';
 
     section {
+        background-color: #fff;
         display: flex;
         justify-content: space-between;
-        padding-top: 200px;
         color: $darkGray;
         position: relative;
         .detail-one {
@@ -115,5 +87,6 @@ export default {
             }
         }
     }
+
 
 </style>

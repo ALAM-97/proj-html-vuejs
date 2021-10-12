@@ -1,22 +1,25 @@
 <template>
-    <div class="container">
-        <section>
-            <div class="numbers">
-                <div class="info-one">
-                    129+ 
-                    <span>ENROLLED LEARNERS</span>
+    <div class="gray-bg">
+        <div class="container">
+            <section>
+                <div class="numbers">
+                    <div class="info-one">
+                        129+ 
+                        <span>ENROLLED LEARNERS</span>
+                    </div>
+                    <div class="info-two">
+                        80
+                        <span>FINISHED SESSIONS</span>
+                    </div>
+                    <div class="info-three">
+                        4%
+                        <span>SATISFACTION RATE</span>
+                    </div>
                 </div>
-                <div class="info-two">
-                    80
-                    <span>FINISHED SESSIONS</span>
-                </div>
-                <div class="info-three">
-                    4%
-                    <span>SATISFACTION RATE</span>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
+        
 </template>
 
 <script>
@@ -34,7 +37,9 @@ export default {
             display: flex;
             width: 70%;
             justify-content: space-around;
-            margin: 6.25rem auto 12.5rem auto;
+            padding-top: 7.5rem;
+            padding-bottom: 7.5rem;
+            margin: 0 auto;
         }
         .info-one,
         .info-two,
