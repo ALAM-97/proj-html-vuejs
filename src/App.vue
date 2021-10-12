@@ -9,6 +9,7 @@
     <SectionFive/>
     <SectionSix/>
     <SectionSeven/>
+    <SectionEight/>
   </div>
 </template>
 
@@ -22,6 +23,8 @@ import SectionFour from './components/SectionFour.vue';
 import SectionFive from './components/SectionFive.vue';
 import SectionSix from './components/SectionSix.vue';
 import SectionSeven from './components/SectionSeven.vue';
+import SectionEight from './components/SectionEight.vue';
+
 
 export default {
   name: 'App',
@@ -34,7 +37,8 @@ export default {
     SectionFour,
     SectionFive,
     SectionSix,
-    SectionSeven
+    SectionSeven,
+    SectionEight
   }
 }
 </script>
