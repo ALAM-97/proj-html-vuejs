@@ -86,7 +86,6 @@ export default {
             color: $darkGray;
             font-weight: bold;
         }
-    }  
-    
+    }
 
 </style>

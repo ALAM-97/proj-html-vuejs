@@ -5,6 +5,8 @@
     <SectionOne/>
     <SectionTwo/>
     <SectionThree/>
+    <SectionFour/>
+    <Divider/>
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import Hero from './components/Hero.vue';
 import SectionOne from './components/SectionOne.vue';
 import SectionTwo from './components/SectionTwo.vue';
 import SectionThree from './components/SectionThree.vue';
+import SectionFour from './components/SectionFour.vue';
+import Divider from './components/Divider.vue';
 
 export default {
   name: 'App',
@@ -22,7 +26,9 @@ export default {
     Hero,
     SectionOne,
     SectionTwo,
-    SectionThree
+    SectionThree,
+    SectionFour,
+    Divider
   }
 }
 </script>
