@@ -58,16 +58,6 @@ export default {
             text-align: center;
             color: $mediumGray;
         }
-        h4 {
-            font-size: 2.9rem;
-            margin: 1.25rem 0;
-            font-weight: 600;
-            line-height: 3.2rem;
-            span {
-                color: $detailsColor;
-                font-weight: 300;
-            }
-        }
     }
     .email-input {
         text-align: center;
@@ -90,6 +80,12 @@ export default {
             background-color: $detailsColor;
             color: $white;
             font-weight: 600;
+            transition: all .1s;
+            &:hover {
+                background-color: $white;
+                color: $detailsColor;
+                border: .125rem solid $detailsColor;
+            }
         }
     }
 

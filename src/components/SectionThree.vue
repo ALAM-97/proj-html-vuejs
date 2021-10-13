@@ -20,7 +20,7 @@
                         Opening up more opportunities in front of you to get the ticket to more enjoyable door in life. Getting equipped with new skills for new sets on insights into your career. MaxCoach accompany leanerners in every stage of learning.
                     </p>
                     <div class="link">
-                        <a href="#">Download free guidebook 
+                        <a class="dark-link" href="#">Download free guidebook 
                             <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
@@ -97,27 +97,8 @@ section {
             font-size: .9rem;
             margin-left: .3125rem;
         }
-        h4 {
-            font-size: 2.9rem;
-            margin: 1.25rem 0;
-            font-weight: 600;
-            line-height: 3.2rem;
-            span {
-                color: $detailsColor;
-                font-weight: 300;
-            }
-        }
-        p {
-            font-size: .8rem;
-            margin-left: .3125rem;
-            margin-bottom: 1.25rem;
-        }
         .link {
             font-size: 1rem;
-            a {
-                color: $darkGray;
-                font-weight: bold;
-            }
         }
     }
 }

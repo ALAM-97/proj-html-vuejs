@@ -78,24 +78,16 @@ section {
                 font-weight: 600;
             }
         }
-        h4 {
-            font-size: 2.9rem;
-            margin: 1.25rem 0;
-            font-weight: 600;
-            line-height: 3.2rem;
-            span {
-                color: $detailsColor;
-                font-weight: 300;
-            }
-        }
-        p {
-            font-size: .8rem;
-            margin-left: .3125rem;
-            margin-bottom: 1.25rem;
-        }
         button {
             background-color: $detailsColor;
             color: $white;
+            border: .125rem solid transparent;
+            transition: all .1s;
+            &:hover {
+                background-color: $white;
+                color: $detailsColor;
+                border: .125rem solid $detailsColor;
+            }
         }
     }
 }

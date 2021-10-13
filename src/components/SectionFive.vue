@@ -10,7 +10,7 @@
                         Seeking for verbals of our service quality? Find them here. Everything in transparent and straightforward for your sense of justification.
                     </p>
                     <div class="link">
-                        <a href="#">View all 
+                        <a class="dark-link" href="#">View all 
                             <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
@@ -77,27 +77,8 @@ name: 'SectionFive'
                     font-weight: 600;
                 }
             }
-            h4 {
-                font-size: 2.9rem;
-                margin: 1.25rem 0;
-                font-weight: 600;
-                line-height: 3.2rem;
-                span {
-                    color: $detailsColor;
-                    font-weight: 300;
-                }
-            }
-            p {
-                font-size: .8rem;
-                margin-left: .3125rem;
-                margin-bottom: 1.25rem;
-            }
             .link {
                 font-size: 1rem;
-                a {
-                    color: $darkGray;
-                    font-weight: bold;
-                }
             }
         }
         .right-section {

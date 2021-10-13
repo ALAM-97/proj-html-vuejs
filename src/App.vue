@@ -11,6 +11,11 @@
     <SectionSeven/>
     <SectionEight/>
     <Footer/>
+    <a href="#">
+      <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    </a>
   </div>
 </template>
 
@@ -49,8 +54,29 @@ export default {
 <style lang="scss">
 @import "./assets/style/common.scss";
 
-// #app {
-  
-// }
+#app {
+  position: relative;
+  .scroll-top {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: $detailsColor;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 50px;
+    text-align: center;
+    a {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+    }
+    .fa-arrow-up {
+      color: $white;
+      font-size: 1.6rem;
+      padding-top: 12px;
+    }
+  }
+}
 
 </style>

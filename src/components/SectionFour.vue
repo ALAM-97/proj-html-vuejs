@@ -19,7 +19,7 @@
                     </div>
                     <div class="courses-sub">
                         Control your personal preference settings to get notified about <br> appropiate courses.
-                        <a href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a class="dark-link" href="#">View all courses <i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </section>
             </div>
@@ -63,16 +63,6 @@ export default {
                 font-size: .9rem;
                 margin-left: .3125rem;
             }
-            h4 {
-                font-size: 2.9rem;
-                margin: 1.25rem 0;
-                font-weight: 600;
-                line-height: 3.2rem;
-                span {
-                    color: $detailsColor;
-                    font-weight: 300;
-                }
-            }
     }
     .services {
         display: flex;
@@ -99,10 +89,6 @@ export default {
         text-align: center;
         line-height: 2.1875rem;
         padding-bottom: 5rem;
-        a {
-            color: $darkGray;
-            font-weight: bold;
-        }
     }
 
 </style>

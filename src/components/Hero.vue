@@ -43,6 +43,7 @@ export default {
             }
             button {
                 color: $detailsColor;
+                transition: all .1s;
                 &:hover {
                     color: $white;
                     background-color: $detailsColor;

@@ -57,6 +57,9 @@ export default {
                     .fa-angle-down {
                         font-size: .6875rem;
                     }
+                    &:hover {
+                        color: $detailsColor;
+                    }
                 }
             }
         }
@@ -94,11 +97,14 @@ export default {
             .input-search {
                 position: relative;
                 input {
-                background-color: #f5f5f5;
-                height: 40px;
-                padding: 0 .9375rem;
-                border: none;
-                border-radius: .3125rem;
+                    background-color: #f5f5f5;
+                    height: 40px;
+                    padding: 0 .9375rem;
+                    border: none;
+                    border-radius: .3125rem;
+                    &:focus {
+                        outline-width: 0;
+                    }
                 }
                 .fa-search {
                     position: absolute;

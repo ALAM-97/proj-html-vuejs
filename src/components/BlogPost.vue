@@ -1,7 +1,9 @@
 <template>
     <ul>
         <li v-for="(post, index) in posts" :key="index">
-            <img :src="post.img" alt="">
+            <div class="img-container">
+                <img :src="post.img" alt="">
+            </div>
             <div class="profession">{{post.profession}}</div>
             <div class="post-title">{{post.title}}</div>
             <div class="info">
@@ -61,9 +63,21 @@ export default {
         width: 100%;
         li {
             width: calc(100% / 3 - 1.25rem);
-            img {
+            &:hover img,
+            &:focus img {
+                transform: scale(1.1);
+            }
+            .img-container {
                 width: 100%;
-                border-radius: .3125rem;
+                height: 220px;
+                overflow: hidden;
+                border-radius: 5px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: .3125rem;
+                    transition: all .5s;
+                }
             }
             .profession {
                 font-weight: 300;

@@ -1,7 +1,9 @@
 <template>
     <ul>
         <li v-for="(course, index) in courses" :key="index">
-            <img :src="course.img" alt="">
+            <div class="img-container">
+                <img :src="course.img" alt="">
+            </div>
             <div class="free" v-if="(course.free == true) ? 'free' : null">FREE</div>
             <div class="infos">
                 <div class="price">${{course.price}}.<span>00</span></div>
@@ -67,18 +69,26 @@ export default {
             width: calc(100% / 3 - 1.25rem);
             display: flex;
             flex-direction: column;
-            height: 25rem;
+            height: 400px;
             border-radius: .3125rem;
             position: relative;
             &:hover .course-title {
                 color: $detailsColor;
             }
+            &:hover img,
+            &:focus img {
+                transform: scale(1.1);
+            }
         }
-        
-        img {
-            border-radius: .3125rem .3125rem 0 0;
-            width: 100%;
+        .img-container {
             height: 50%;
+            overflow: hidden;
+            img {
+                border-radius: .3125rem .3125rem 0 0;
+                width: 100%;
+                height: 100%;
+                transition: all .5s;
+        }
         }
         .free {
                 width: 70px;
@@ -97,6 +107,7 @@ export default {
             padding: 1.5625rem;
             background-color: $white;
             border-radius: 0 0 .3125rem .3125rem;
+            overflow: hidden;
             .price {
                 font-size: 1.3rem;
                 font-weight: 600;
