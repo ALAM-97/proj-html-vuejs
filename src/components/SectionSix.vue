@@ -38,7 +38,7 @@ export default {
 section {
     display: flex;
     justify-content: space-between;
-    padding: 15.625rem 0 150px 0;
+    padding: 15.625rem 0 9.375rem 0;
     align-items: center;
     position: relative;
     .detail-one {

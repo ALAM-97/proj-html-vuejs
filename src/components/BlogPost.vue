@@ -69,7 +69,7 @@ export default {
             }
             .img-container {
                 width: 100%;
-                height: 220px;
+                height: 13.75rem;
                 overflow: hidden;
                 border-radius: 5px;
                 img {
@@ -88,7 +88,7 @@ export default {
                 font-size: 1.1rem;
                 font-weight: 600;
                 line-height: 1.875rem;
-                margin-bottom: 20px;
+                margin-bottom: 1.25rem;
             }
             .info {
                 display: flex;
@@ -97,7 +97,7 @@ export default {
                     font-size: .9rem;
                     font-weight: 300;
                     color: #9693aa;
-                    margin-right: 20px;
+                    margin-right: 1.25rem;
                 }
             }
         }

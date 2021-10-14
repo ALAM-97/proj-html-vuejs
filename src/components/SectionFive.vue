@@ -88,7 +88,7 @@ name: 'SectionFive'
                 width: 100%;
                 padding: 2.5rem 2.8125rem;
                 border-radius: .3125rem;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+                box-shadow: 0 .25rem .5rem 0 rgba(0, 0, 0, 0.2), 0 .375rem 1.25rem 0 rgba(0, 0, 0, 0.10);
                 background-color: $white;
                 z-index: 1;
             }
@@ -103,7 +103,7 @@ name: 'SectionFive'
                 transform: translate(-50%);
                 display: flex;
                 flex-direction: column;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+                box-shadow: 0 .25rem .5rem 0 rgba(0, 0, 0, 0.2), 0 .375rem 1.25rem 0 rgba(0, 0, 0, 0.10);
                 opacity: .5;
                 z-index: -1;
                 .user-info {
@@ -128,7 +128,7 @@ name: 'SectionFive'
                 }
                 .name {
                     font-weight: 700;
-                    margin-bottom: 10px;
+                    margin-bottom: .625rem;
                 }
                 .work {
                     font-weight: 300;

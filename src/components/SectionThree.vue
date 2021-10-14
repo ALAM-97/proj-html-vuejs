@@ -70,7 +70,7 @@ section {
         width: 50%;
         height: 400px;
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: .3125rem;
         cursor: pointer;
         .video {
             background-image: url("../assets/images/stock-full-hd-11-670x450.jpg");

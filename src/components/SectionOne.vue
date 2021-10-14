@@ -42,7 +42,7 @@ export default {
     section {
         display: flex;
         justify-content: space-between;
-        padding-top: 200px;
+        padding-top: 12.5rem;
         position: relative;
         .detail-one {
             position: absolute;
@@ -88,7 +88,7 @@ export default {
             img {
                 width: 90%;
                 height: 100%;
-                border-radius: 5px;
+                border-radius: .3125rem;
             }
             .absolute-img {
                 position: absolute;

@@ -42,7 +42,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1.25rem 50px;
+        padding: 1.25rem 3.125rem;
         width: 100%;
         background-color: $white;
         nav {
@@ -52,7 +52,7 @@ export default {
             ul {
                 display: flex;
                 li {
-                    margin-right: 25px;
+                    margin-right: 1.5625rem;
                     font-size: .9rem;
                     .fa-angle-down {
                         font-size: .6875rem;
@@ -98,7 +98,7 @@ export default {
                 position: relative;
                 input {
                     background-color: #f5f5f5;
-                    height: 40px;
+                    height: 2.5rem;
                     padding: 0 .9375rem;
                     border: none;
                     border-radius: .3125rem;

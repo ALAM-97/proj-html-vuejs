@@ -69,7 +69,7 @@ export default {
             width: calc(100% / 3 - 1.25rem);
             display: flex;
             flex-direction: column;
-            height: 400px;
+            height: 25rem;
             border-radius: .3125rem;
             position: relative;
             &:hover .course-title {
@@ -91,12 +91,12 @@ export default {
         }
         }
         .free {
-                width: 70px;
-                height: 30px;
+                width: 4.375rem;
+                height: 1.875rem;
                 background-color: #ee7455;
                 color: $white;
                 text-align: center;
-                line-height: 30px;
+                line-height: 1.875rem;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -112,7 +112,7 @@ export default {
                 font-size: 1.3rem;
                 font-weight: 600;
                 color: $detailsColor;
-                margin-bottom: 10px;
+                margin-bottom: .625rem;
                 span {
                     font-size: 1.1rem;
                 }
@@ -120,7 +120,7 @@ export default {
             .course-title {
                 font-weight: 600;
                 font-size: 1.2rem;
-                margin-bottom: 30px;
+                margin-bottom: 1.875rem;
             }
             .less-and-stud {
                 display: flex;
@@ -129,7 +129,7 @@ export default {
                     font-size: .9rem;
                     font-weight: 300;
                     color: #9693aa;
-                    margin-right: 20px;
+                    margin-right: 1.25rem;
                 }
             }
         }

@@ -63,19 +63,19 @@ export default {
         text-align: center;
         input {
             width: 42%;
-            height: 50px;
-            border-radius: 5px 0 0 5px;
+            height: 3.125rem;
+            border-radius: .3125rem 0 0 .3125rem;
             border: none;
             background-color: $lightGray;
-            padding: 0 15px;
+            padding: 0 .9375rem;
             &:focus {
                 outline-width: 0;
             }
         }
         button {
-            height: 50px;
+            height: 3.125rem;
             width: 10%;
-            border-radius: 0 5px 5px 0;
+            border-radius: 0 .3125rem .3125rem 0;
             border: none;
             background-color: $detailsColor;
             color: $white;

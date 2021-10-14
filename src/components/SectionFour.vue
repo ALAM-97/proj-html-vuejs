@@ -50,7 +50,7 @@ export default {
         position: relative;
         .abs {
             position: absolute;
-            bottom: -10px;
+            bottom: -0.625rem;
         }
     }
     .section-title {
@@ -73,9 +73,9 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 40px auto;
+        margin: 2.5rem auto;
         i {
-            margin: 0 10px;
+            margin: 0 .625rem;
             opacity: .3;
             font-size: .6rem;
             &.active {
